@@ -1,12 +1,15 @@
 {
-    "name": "masorin/testuploadimage",
-    "description": "test upload image",
-    "authors": [
-        {
-            "name": "masorin.roman",
-            "email": "rmasorin@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+  "name": "masorin/testuploadimage",
+  "description": "test upload image",
+  "authors": [{
+    "name": "masorin.roman",
+    "email": "rmasorin@gmail.com"
+  }],
+  "minimum-stability": "dev",
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "require": {}
 }
