@@ -3,6 +3,6 @@ namespace TestAutoloadImage\Model;
 
 class TestModel{
   public function __construct(){
-    return __CLASS__;
+    echo __CLASS__;
   }
 }
