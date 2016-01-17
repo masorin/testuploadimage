@@ -7,9 +7,9 @@
   }],
   "minimum-stability": "dev",
   "autoload": {
-    "classmap": [
-      "src/"
-    ]
+    "psr-4": {
+      "TestAutoloadImage\\": "/masorin/testuploadimage/src/Lib/"
+    }
   },
   "require": {}
 }
