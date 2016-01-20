@@ -1,5 +1,3 @@
-# testuploadimage
-test package
 <?php
 
 use TestAutoloadImage\Uploader\ImageUploader as ImageUploader;
